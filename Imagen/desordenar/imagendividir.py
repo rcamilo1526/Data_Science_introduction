@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Sep  2 20:52:13 2019
 
-@author: rcami
-"""
 
 from PIL import Image
-import numpy.matlib
 import numpy as np
 import cv2
 import copy
@@ -43,4 +38,4 @@ while i<16:
 cv2.imwrite('imagenreordenada.jpg',im3)
 imagenreordenada = Image.open("imagenreordenada.jpg")
 imagenreordenada.show()
-    
+

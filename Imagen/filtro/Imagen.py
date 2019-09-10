@@ -34,4 +34,4 @@ def filtro(x):
 pa=np.array([[-1,-1,-1],[-1,16,-1],[-1,-1,-1]])
 pb=np.array([[1,1,1],[1,1,1],[1,1,1]])
 
-filtro(pa)
+filtro(pb)
