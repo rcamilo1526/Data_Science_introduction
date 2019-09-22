@@ -37,7 +37,7 @@ while i<150:
             if s1[x+i]==s2[x]:
                 puntuacion +=1
     else:
-        #añade al vector de puntaje lapuntuación
+        #añade al vector de puntaje la puntuación
         VectorPuntaje.append(puntuacion)
         i+=1
 #guarda las variables del maximo puntaje y su posición
